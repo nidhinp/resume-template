@@ -1,0 +1,312 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}			
+
+% moderncv themes
+\moderncvtheme[orange]{classic}                 
+% optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 
+%'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                
+% idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   
+% replace by the encoding you are using
+%\usepackage{hyperref}
+%\hypersetup{
+%     colorlinks   = true,
+%     citecolor    = orange
+%}
+\usepackage{color}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						
+% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  
+% only for the classic theme, if you want to change the width of your name 
+%placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     
+% required when changes are made to page layout lengths
+
+% personal data
+\firstname{Nidhin}
+\familyname{{ }P P}
+\title{\footnotesize Punchaparambil House, Puthenchira P O, Thrissur, Kerala, India}               
+% optional, remove the line if not wanted
+    
+% optional, remove the line if not wanted
+\mobile{+91 9400 89 3961}                    
+% optional, remove the line if not wanted
+%% \phone{phone (optional)}                  
+% optional, remove the line if not wanted
+                      
+% optional, remove the line if not wanted
+\email{nidhinp.412@gmail.com}
+%\address{}{\httplink[Blog: nidhinp.wordpress.com]{nidhinp.wordpress.com}}
+
+%\fax{}{\httplink[Code repo: Github]{https://github.com/nidhinp}}
+%\extrainfo{%
+%  \httplink[blog]{nidhinp.wordpress.com}\\%
+%  \httplink[code repo]{https://github.com/nidhinp}}
+% optional, remove the line if not wanted
+\homepage{github.com/nidhinp}
+% optional, remove the line if not wanted
+\extrainfo{{\httplink[Blog: nidhinp.wordpress.com]{nidhinp.wordpress.com}}} 
+%{{\httplink[Code repo: Github]{https://github.com/nidhinp}}}} 
+% optional, remove the line if not wanted
+%\photo[64pt]{photo.jpg}                         
+% '64pt' is the height the picture must be resized to and 'picture' is the name 
+%of the picture file; optional, remove the line if not wanted
+%% \quote{Improve users' lives}                 
+% optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make 
+%citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             
+% uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Objective}
+
+To obtain a position in an esteemed organization that will enable me to use my strong organizational skills, 
+
+educational background, and ability to work well with people.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+\cventry{B.Tech}{Govt. Engineering College, Thrissur}{University of Calicut, 2012}{}{}
+                {Computer Science and Engineering 60.01\%}{}{}
+\cventry{HSE}{St. Antony's Higher Secondary School, Mala}{}{}{}{Computer Science 81.17\%}
+\cventry{SSLC}{THS Puthenchira, Velloor}{}{ 89.47\%}{}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Online Courses}
+\begin{itemize}
+    \item{\textbf{Introduction To Systematic Program Design} at coursera.org from \textbf{The University of British Columbia}}
+
+
+Being able to design simple programs is a new form of literacy. Being able to desing programs systematically will allow you
+to organize, store, analyze and visualize information and much much more.
+
+
+\textcolor{gray}{\httplink{www.coursera.org/course/programdesign}}
+    \item{\textbf{Introduction to Computer Science and Programming} at edx.org from \textbf{MIT}}
+    
+    
+Being able to understand the relevant subtleties of the Python language, critically think about approaches to solve the 
+problem
+
+    
+\textcolor{gray}{\httplink{www.edx.org/course/mitx/mitx-6-00x-introduction-computer-science-586}}
+\end{itemize}
+%\cvline{site}{\httplink[coursera]{https://class.coursera.org/programdesign-002}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Personal Information}
+\cvline{Age}{24}
+\cvline{Date of Birth}{4 December 1989}
+\cvline{Sex}{Male}
+
+%\section{Masters thesis}
+%\cvline{Age}{\emph{ Better Iterative Processes}}
+%\cvline{Date of Birth}{Ashok Srinivasan, Florida State University, Tallahssee}
+%\cvline{Sex}{Developed an improved iterative process for solving non-diagonal linear systems through Monte Carlo methods}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Technical Skills}
+\cvline{Key Skills}{Python, C, Java, Shell Scripting, LaTex, Assembly, Racket}
+%\cvcomputer{Super}{Python, Java, C}{Good}{Shell, LaTeX}
+%\cvcomputer{Passable}{Assembly, Racket}{}{}
+\cvcomputer{Platforms}{Linux, Windows}{}{}
+\cvcomputer{Databases}{PostgreSQL, SQLite3}{}{}
+\cvcomputer{Version Control}{Revision control with git}{}{}
+\cvcomputer{Web Technologies}{Django, Flask, JavaScript, jQuery, JSON, HTML5, CSS, }{}{}     
+
+
+%\section{Professional Experience}
+%\cvline{Company}{Kerala Forest Research Institute, Peechi, Thrissur, Kerala}
+%\cvline{Job Title}{Development and management of research and office automation system-facility development}
+%\cvline{Description}{It is a web based intranet application for automating KFRI daily works.}
+%\cvline{Modules Under Development}{Leave application: - This module contains forms for applying different types of leaves 
+%such as casual leave, leave with wages, leave without wages, restricted leaves that are used in offices.}
+%\cvline{Proficient in}{ASP.NET, C\#, MS SQL, JavaScript}
+%\cvline{Duration}{4 months: 5th July 2013 to 5th November 2013.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{B.Tech Main Project}
+\cvline{Title}{Implementation of Linux Device Driver for a Temperature Sensor}
+\cvline{Description}{This project aims at building a hardware device for measuring the temperature of a given area. 
+A device driver for Linux kernel has been implemented for making the hardware compatible with it.}
+\cvline{Language}{C}
+\cvline{Tools Used}{ATMega8 microcontroller}
+%\cvline{Reference}{Savyan P V (Asst.professor):+91 9447 00 3530 (Email id:savyanpv@yahoo.co.in)}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{B.Tech Mini Project}
+\cvline{Title}{Camouflage Xtreme}
+\cvline{Description}{Software tool that combines steganography and encryption techniques. 
+This tool can encrypt message using AES and hide it in an image.}
+\cvline{Language}{Python}
+%\cvline{Tools Used}{ATMega8 microcontroller}
+%\cvline{Reference}{Savyan P V (Asst.professor):+91 9447 00 3530 (Email id:savyanpv@yahoo.co.in)}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Other Projects}
+\subsection{Paint App Using Django}
+%\cvline{Title}{Paint App}
+\cvline{Description}{A basic paint application using Javascript and HTML5 canvas. Provides almost all
+basic paint functions.}
+\cvline{Languages}{Python, JavaScript, HTML5}
+\cvline{Database}{PostgreSQL}
+\cvline{Framework}{Django}
+\cvline{app}{\textcolor{gray}{\httplink{django-paint-app.herokuapp.com/}}}
+\cvline{code}{\textcolor{gray}{\httplink{github.com/nidhinp/paint-app-in-django}}}
+\cvline{blog}{\textcolor{gray}{\httplink{nidhinp.wordpress.com/2014/02/19/paint-app-in-django/}}}
+
+\subsection{Blog App Using Django}
+%\cvline{Title}{Microblog}
+\cvline{Description}{A blog app which can be used to write, view posts and an additional option to
+comment on existing posts.}
+\cvline{Languages}{Python, HTML5}
+\cvline{Database}{PostgreSQL}
+\cvline{Framework}{Django}
+\cvline{app}{\textcolor{gray}{\httplink{new-django-microblog.herokuapp.com/}}}
+\cvline{code}{\textcolor{gray}{\httplink{github.com/nidhinp/blog-app-in-django}}}
+\cvline{blog}{\textcolor{gray}{\httplink{nidhinp.wordpress.com/2014/03/01/blog-application-in-django/}}}
+
+\subsection{Graph Colouring App using Django}
+%\cvline{Title}{Graph Colouring App}
+\cvline{Description}{Graph coloring is a special type of problem in graph theory, which has great practical importance. 
+An app to colour the vertices of graphs.}
+\cvline{Languages}{Python, JavaScript, HTML5}
+\cvline{Framework}{Django}
+%\cvline{app}{\textcolor{gray}{\httplink{graphs-django.herokuapp.com/}}}
+\cvline{app}{\textcolor{gray}{\httplink{graphs-django.herokuapp.com/}}}
+\cvline{code}{\textcolor{gray}{\httplink{github.com/nidhinp/graphs-using-django}}}
+\cvline{blog}{\textcolor{gray}{\httplink{nidhinp.wordpress.com/2014/03/21/graph-coloring-app-in-django/}}}
+
+\subsection{Lisp Interpreter}
+%\cvline{Title}{Lispy}
+\cvline{Description}{Implementation of Lisp interpreter using JavaScript}
+\cvline{Language}{JavaScript}
+\cvline{code}{\textcolor{gray}{\httplink{github.com/nidhinp/Lisp-Interpreter}}}
+\cvline{blog}{\textcolor{gray}{\httplink{nidhinp.wordpress.com/2013/12/06/lisp-interpreter-in-javascript/}}}
+
+\subsection{Blog App Using Flask}
+%\cvline{Title}{Microblog}
+\cvline{Description}{A blog app which can be used to write, view posts and an additional option to
+comment on existing posts.}
+\cvline{Languages}{Python, JavaScript, HTML5}
+\cvline{Database}{PostgreSQL}
+\cvline{Framework}{Flask}
+\cvline{app}{\textcolor{gray}{\httplink{new-flask-miniblog.herokuapp.com/}}}
+\cvline{code}{\textcolor{gray}{\httplink{github.com/nidhinp/flask-blogapp}}}
+\cvline{blog}{\textcolor{gray}{\httplink{nidhinp.wordpress.com/2014/01/27/blog-application-in-flask/}}}
+
+\subsection{Paint App Using Flask}
+%\cvline{Title}{Paint App}
+\cvline{Description}{A basic paint application using Javascript and HTML5 canvas. Provides almost all
+basic paint functions.}
+\cvline{Languages}{Python, JavaScript, HTML5}
+\cvline{Database}{PostgreSQL}
+\cvline{Framework}{Flask}
+\cvline{code}{\textcolor{gray}{\httplink{github.com/nidhinp/Paintapp-Flask-PostgreSQL}}}
+\cvline{blog}{\textcolor{gray}{\httplink{nidhinp.wordpress.com/2014/02/19/paint-app-in-flask/}}}
+%\cvline{blog}{\textcolor{gray}{\httplink{nidhinp.wordpress.com/2014/03/01/blog-application-in-django/}}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Activities}
+	\begin{itemize}
+		\item{ Blogging: \textcolor{gray}{\httplink{nidhinp.wordpress.com}}}
+		\item{ Coding: \textcolor{gray}{\httplink{github.com/nidhinp}}}
+%\item{\footnotesize Technical stall as a part of ISTE Student's Chapter organised by ISTE Student's Chapter, GEC Thrissur.}
+%\item{Organizing Committee member of National Conference on Emerging Trends in Computing, organized by the Department 
+%of Computer Science and Engineering, GEC Thrissur, sponsored by the Directorate of Technical Education, Government of Kerala.}
+%\item{Organizing Committee member for Insignia 3.0 Hackerdom organized by Department of Computer Science and Engineering, 
+%GEC Thrissur.}
+%\item{\footnotesize Organizing member of Freezone, an introduction session to freesoftware organized by Department of Computer
+%Science and Engineering, GEC Thrissur}
+%\item{\footnotesize Participant of The New Efficiency First Look Clinic conducted by Microsoft. }
+	\end{itemize}
+	
+	
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Personal Skills}
+	\begin{itemize}
+		\item{ Comprehensive problem solving abilities.}
+		\item{ Excellent verbal and written communication skills.}
+		\item{ Positive attitude.}
+		\item{ Hard worker and a team player.}
+
+	\end{itemize}
+	
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Hobbies and Interests}
+	\begin{itemize}
+		\item{ Watching movies and blogging.}
+		\item{ Playing football, chess.}
+		\end{itemize}
+			
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Reference}
+%\cvline{Name}{Arun Rajan}
+%\cvline{Designation}{Sr. Software Engineer}
+%\cvline{Organization Name}{Zafin Software Centre of Excellence, Technopark, Trivandrum}
+%\cvline{e-mail id}{ arajan@zafinlabs.com}
+%\cvline{Contact Details}{+91-471-2700304}
+
+	
+\section{Declaration}
+
+I hereby declare that the above given entries are true to the extent of my knowledge and belief. 
+\begin{verbatim}
+
+
+Place :Thrissur                                                          (Nidhin P P)
+Date  :07-04-2014 
+\end{verbatim}
+	
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
